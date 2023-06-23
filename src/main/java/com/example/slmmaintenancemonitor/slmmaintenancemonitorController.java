@@ -22,6 +22,13 @@ public class slmmaintenancemonitorController {
         return ok;
     }
 
+    @RequestMapping("/api/message/reset")
+    public String reset(){
+        m = defaultmessage;
+        return ok;
+    }
+
+
 
 
 }
